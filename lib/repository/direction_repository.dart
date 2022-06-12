@@ -15,7 +15,7 @@ class DirectionRerpository {
     final response = await _dio.get(_baseUrl, queryParameters: {
       'origin': '${origin.latitude},${origin.longitude}',
       'destination': '${destination.latitude},${destination.longitude}',
-      'key': 'AIzaSyA58QFhsr2qSp2tqnk5DN9gwvQS39CfJZ8',
+      'key': 'YOUR API KEY',
     });
 
     if (response.statusCode == 200) {

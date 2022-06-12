@@ -1,1 +1,0 @@
-const String GOOGLEMAPAPI = 'AIzaSyA58QFhsr2qSp2tqnk5DN9gwvQS39CfJZ8';

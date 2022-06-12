@@ -23,8 +23,8 @@ class PlaceApiProvider {
 
   final sessionToken;
 
-  static const String androidKey = 'AIzaSyA58QFhsr2qSp2tqnk5DN9gwvQS39CfJZ8';
-  static const String iosKey = 'AIzaSyA58QFhsr2qSp2tqnk5DN9gwvQS39CfJZ8';
+  static const String androidKey = 'YOUR API KEY';
+  static const String iosKey = 'YOUR API KEY';
   final apiKey = Platform.isAndroid ? androidKey : iosKey;
 
   Future<List<Suggestion>> fetchSuggestions(
